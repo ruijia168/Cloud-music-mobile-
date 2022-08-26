@@ -1,0 +1,66 @@
+.songs-wrap {
+  background-color: #c36b88;
+  height: 250vh !important;
+}
+.songs-wrap #IconBox {
+  color: white ;
+}
+.songs-wrap #IconBox #iconbox {
+  z-index: 999;
+}
+.songs-wrap #IconBox #index {
+  color: white;
+}
+.ResembleBox {
+  width: 100%;
+  height: 70vh;
+}
+.ResembleBox .ant-list-item-meta {
+  align-items: center;
+}
+.ResembleBox .ant-list-item-meta .ant-list-item-meta-title {
+  font-size: 18px;
+  color: white;
+}
+.ResembleBox .icon-play {
+  font-family: 'iconfont';
+  font-size: 23px;
+  padding-right: 3vw;
+}
+.ResembleBox h1 {
+  font-size: 20px;
+  color: white;
+  padding-left: 2vw;
+}
+.ResembleBox .ant-list-item {
+  padding-left: 3vw;
+}
+.commentBox h1 {
+  font-size: 20px;
+  padding-left: 2vw;
+  color: white;
+}
+.commentBox .ant-list-item {
+  padding-left: 3vw;
+}
+.play-plate {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+}
+.play-plate .lyric {
+  position: absolute;
+  text-align: center;
+  top: 12vh;
+  width: 100%;
+  height: 45vh;
+  padding: 0 6vw;
+  overflow: scroll;
+}
+.play-plate audio {
+  position: absolute;
+  left: 10vw;
+  top: 58vh;
+  color: blanchedalmond;
+}
+/*# sourceMappingURL=./index.css.map */

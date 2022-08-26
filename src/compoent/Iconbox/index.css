@@ -1,0 +1,23 @@
+#iconbox {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  border: 0.2vh solid #eceaea;
+  border-radius: 10px;
+}
+#iconbox #left {
+  font-size: 18px;
+  font-family: 'iconfont' !important;
+}
+#iconbox #border {
+  width: 1vw;
+  height: 3vh;
+  border-right: solid #f8f8f8;
+}
+#iconbox #index {
+  font-size: 18px;
+  font-family: 'iconfont';
+}
+/*# sourceMappingURL=./index.css.map */

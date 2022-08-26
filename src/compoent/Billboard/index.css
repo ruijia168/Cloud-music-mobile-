@@ -1,0 +1,37 @@
+#box {
+  margin-top: 2vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#box #imgbox {
+  position: relative;
+  width: 30%;
+  height: 15vh;
+  border-radius: 5px;
+}
+#box #imgbox img {
+  height: 15vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+#box #imgbox #prompt {
+  position: absolute;
+  left: 2vw;
+  top: 11.5vh;
+  font-size: 10px;
+  color: white;
+}
+#box #list {
+  width: 66%;
+  height: 18vh;
+}
+#box #list .ant-list-item {
+  border: none;
+  padding-top: 1.8vh;
+  padding-bottom: 0;
+  color: #959595;
+}
+/*# sourceMappingURL=./index.css.map */

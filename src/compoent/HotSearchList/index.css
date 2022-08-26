@@ -1,0 +1,31 @@
+#hotListBox {
+  margin-top: 1vh;
+  width: 96vw;
+  margin: 0 auto;
+}
+#hotListBox .ant-list-item {
+  position: relative;
+}
+#hotListBox .ant-list-item #hotIcon {
+  font-family: 'iconfont' !important;
+  top: 2vh;
+  left: 17vh;
+  color: red;
+  position: absolute;
+  font-size: 20px;
+  display: none;
+}
+#hotListBox .ant-list-item #head {
+  width: 15vw;
+  text-align: center;
+}
+#hotListBox .ant-list-item #head .status {
+  font-size: 20px;
+}
+#hotListBox .ant-list-item .ant-list-item-meta-title {
+  font-size: 18px;
+}
+#hotListBox .ant-list-item .ant-list-item-meta-description {
+  font-size: 13px;
+}
+/*# sourceMappingURL=./index.css.map */

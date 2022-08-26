@@ -1,0 +1,104 @@
+#song-title {
+  z-index: 999;
+  width: 100%;
+  height: 15vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  color: white ;
+}
+#song-title #title {
+  color: white;
+}
+#song-title #index {
+  color: white;
+}
+#list-top {
+  width: 100%;
+  height: 48vh;
+  padding-top: 15vh;
+}
+#list-top #imgBox {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+#list-top #imgBox .img {
+  width: 40%;
+  height: 20vh;
+  position: relative;
+  border-radius: 5px;
+}
+#list-top #imgBox .img img {
+  width: 100%;
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+#list-top #imgBox .img .playCount {
+  position: absolute;
+  left: 11vw;
+  top: 1vh;
+  font-family: 'iconfont';
+  color: white;
+}
+#list-top #imgBox .description {
+  position: relative;
+  width: 55%;
+  height: 20vh;
+  padding-left: 3vw;
+}
+#list-top #imgBox .description .icon-cloud {
+  position: absolute;
+  font-family: 'iconfont';
+  color: white;
+  font-size: 28vw;
+  left: 1vw;
+  top: -4vh;
+}
+#list-top #imgBox .description .lilword {
+  position: absolute;
+  left: 3vw;
+  top: 11vh;
+  font-size: 12px;
+  color: #dcd7d7;
+}
+#list-top #share {
+  width: 50vw;
+  height: 6vh;
+  margin: 0 auto;
+  margin-top: 3vh;
+  background-color: rgba(226, 220, 220, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  line-height: 6vh;
+}
+#list-top #share #icon-span {
+  color: white;
+  font-family: 'iconfont';
+  font-size: 16px;
+}
+#bottom-list {
+  width: 100%;
+  height: 53vh;
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+}
+#bottom-list .introduce {
+  padding-top: 2vh;
+  padding-left: 2vw;
+  margin-bottom: 3vh;
+}
+#bottom-list .introduce .icon-playall {
+  font-family: 'iconfont';
+  color: black;
+  font-size: 19px;
+  font-weight: 600;
+}
+#bottom-list .introduce .allNum {
+  color: #bcbcbc;
+  font-size: 15px;
+}
+/*# sourceMappingURL=./index.css.map */

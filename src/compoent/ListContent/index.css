@@ -1,0 +1,26 @@
+#Search-SongList {
+  padding-left: 2vw;
+  padding-right: 3vw;
+  width: 96vw;
+  margin: 1vh auto;
+}
+#Search-SongList .ant-list-item-meta-title {
+  font-size: 18px;
+}
+#Search-SongList .icon-play {
+  font-family: 'iconfont';
+  font-size: 23px;
+  color: #d5d5d5;
+}
+#Search-SongList .ant-list-item {
+  position: relative;
+}
+#Search-SongList .ant-list-item .ant-list-item-action a {
+  left: -89vw;
+  top: -5vh;
+  display: block;
+  width: 90vw;
+  height: 10vh;
+  position: absolute;
+}
+/*# sourceMappingURL=./index.css.map */

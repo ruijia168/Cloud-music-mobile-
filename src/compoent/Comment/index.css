@@ -1,0 +1,69 @@
+#comment-wrap {
+  width: 100%;
+  margin-bottom: 5vh;
+}
+#comment-header {
+  margin: 0 auto;
+  width: 90%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+#comment-header #head {
+  width: 60%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+}
+#comment-header #head #img {
+  height: 8vh;
+  width: 25%;
+  background-color: white;
+  border-radius: 50%;
+}
+#comment-header #head #img img {
+  height: 8vh;
+  width: 100%;
+  background-size: cover;
+  border-radius: 50%;
+}
+#comment-header #head #msg {
+  height: 8vh;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#comment-header #head #msg #name {
+  width: 80%;
+  height: 3vh;
+  font-size: 16px;
+  color: #ccc4c3;
+}
+#comment-header #head #msg #time {
+  width: 80%;
+  height: 3vh;
+  font-size: 12px;
+  color: #b0adad;
+}
+#comment-header #good {
+  font-family: 'iconfont';
+  text-align: right;
+  line-height: 8vh;
+  width: 20%;
+  height: 8vh;
+}
+#comment-content {
+  margin: 0 auto;
+  padding-top: 2vh;
+  width: 90%;
+  padding-left: 17vw;
+  font-size: 17px;
+}
+#border {
+  width: 85%;
+  height: 1px;
+  margin: 0 auto;
+  border-bottom: 1px solid #baafae;
+}
+/*# sourceMappingURL=./index.css.map */

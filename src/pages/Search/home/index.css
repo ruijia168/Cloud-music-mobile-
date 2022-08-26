@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #wrap {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  #wrap #title {
+    text-align: center;
+    width: 140px;
+    margin: 0 auto;
+    font-size: 3vh;
+    padding-top: 3.7vh;
+  }
+  #wrap #header {
+    position: absolute;
+    left: 5vw;
+    top: 19vh;
+  }
+  #wrap #iconbox {
+    width: 20vw;
+    position: absolute;
+    left: 2vh;
+    top: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+    border: 0.2vh solid #eceaea;
+    border-radius: 10px;
+    padding: 0.5vh 0;
+  }
+  #wrap #iconbox #left {
+    font-size: 20px;
+    font-family: 'iconfont' !important;
+  }
+  #wrap #iconbox #border {
+    width: 1vw;
+    height: 3vh;
+    border-right: solid #f8f8f8;
+  }
+  #wrap #iconbox #index {
+    font-size: 20px;
+    font-family: 'iconfont';
+  }
+  #wrap #searchBox {
+    margin-top: 5vh;
+  }
+  #wrap #hotSearchBox {
+    margin-top: 3vh;
+  }
+  #wrap #hotSearchBox #hotListBox:nth-child(-n+3) #head {
+    color: red;
+    font-size: 20px;
+  }
+  #wrap #hotSearchBox #hotListBox:nth-child(1) #hotIcon {
+    display: flex;
+  }
+  /*# sourceMappingURL=./index.css.map */
